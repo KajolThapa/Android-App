@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_92f80e6c01b7e53ef266d01c0b32372b249fad5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_093bf43801df90bd6f926fa6ca5e9ba0981445f0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="536fa507203e2bd76b331d6e7705acb96db4085e">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dd0be07dbc578c476ca273a65b95cc67f8f99d5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_d5073dcf7c2c1ea874e5bb53bab05fdf0b0bf11a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Class 1\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_71dfe45ee48b6f2f1568bd489f45f5389886ed03\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_a4847b521b26c2a4f123f8e54bbf228bc8761795\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_4724d92def5ae4af78dbd78969155b166afddf16\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HWK3Proff\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="12b4ca14e1ac9c7faa85b05e1b6ca5b1724a6d2e">
+        <dex dex="C:\Android\HWK3Proff\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_08d416fc244feef224a9c030a251586149612191\classes.dex" />
+    </item>
+
+</items>

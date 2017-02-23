@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_7c5540dac7e79604f440619b72687a3f63140f5d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5383ed88d1619a9cc221b19475b6d885743d940c">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_34b81b44cf851690742b5f8d52e031a54e22d0ad\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_ca36fcd74967830e0e09075a9b800f2672b1abf1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="07a5d4e0da4b26c63c7daacc3f96513082aa21af">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_590a19d22c2ec923eada62a507f17d4c2bc17ed4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_6a52e899f49121962bfc09414d1b3b04ec6cebfa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_eb86f49ac427fbc7f4f35c5d4f972e4ce3d2f097\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_24485cdc0f275544918e839cf7d5314a55c11916\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\Pratik&amp;Kajol\AndroidStudioProjects\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_d645795b10302536820174057fe1f54b64e8d84b\classes.dex" />
+    </item>
+
+</items>

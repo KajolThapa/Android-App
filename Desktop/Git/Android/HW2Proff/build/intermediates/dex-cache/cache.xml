@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_8edb528c22d9a31acd67c2be1ecc5b979d1c2cbf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_82897687c1acafd980f2e0c086aa85def570fe69\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_a19fb3cbac22f9a245c54c21dab22f4db553de04\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1dce6a7dc98d5df4851f4802ccce94d27e4fba2a">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ccca24c5be48a1069c61ec3426b5a62207230cfc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Class 1\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_71dfe45ee48b6f2f1568bd489f45f5389886ed03\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_3a178bdd34b3210b55ea607affa0f47a805cfe04\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2c3b2b5109e457bc2fa9304324859c0444833acf">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f09a448eddbce3048f249e89780eed12cb33f94c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\HomeworkThreeInClass\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Android\HomeworkThreeInClass\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_094c5eb2d2e5818d808b8ca7e5d68a503b427f88\classes.dex" />
+    </item>
+
+</items>

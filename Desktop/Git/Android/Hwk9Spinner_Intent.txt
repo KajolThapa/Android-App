@@ -1,0 +1,226 @@
+//Kajol Thapa. Homework 9 using Spinner for DropDownList
+//This MainActivity.java
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity
+{
+    //global variables
+    Spinner qSpinner;
+    boolean firstTime = true;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //reference to the screen object: spinner
+        qSpinner = (Spinner) findViewById(R.id.qtySpinner);
+
+        //creating an ArrayList of order quantities
+        //to be displayed in the spinner
+        List<Integer> quantity_array = new ArrayList<>();
+
+        //let's populate the quantity_array
+        for (int i=5; i<21; i++)
+        {
+            quantity_array.add(i);
+        }
+
+        //creating an adapter for the spinner
+        ArrayAdapter<Integer> qtyAdapter = new ArrayAdapter<Integer>(this,
+                android.R.layout.simple_spinner_item, quantity_array);
+
+        //setting the spinner layout style
+        qtyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        //displaying the spinner using the adapter
+        qSpinner.setAdapter(qtyAdapter);
+
+        //create a Listener to the spinner
+        // to catch the user's selection
+        qSpinner.setOnItemSelectedListener(spinnerListener);
+    }
+
+    //defining the spinnerListener
+    AdapterView.OnItemSelectedListener spinnerListener = new AdapterView.OnItemSelectedListener()
+    {
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
+        {
+            if (firstTime) firstTime = false;
+            else
+            {
+                //reading the selection
+                int selectedQty = (int) parent.getItemAtPosition(position);
+
+                //creating an Intent to go to the second screen
+                Intent gotoSecondScreen = new Intent(MainActivity.this,ShowValues.class);
+
+                //packing the selected quantity with the Intent
+                gotoSecondScreen.putExtra("quantity",selectedQty);
+
+                //starting the Intent gotoSecondScreen
+                startActivity(gotoSecondScreen);
+            }
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView<?> parent) { }
+    };
+}
+
+
+
+
+//This is activity-main_xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cst2301.hwk8spinner.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Store"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qtySpinner"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:prompt="@string/quantity_prompt"
+        android:focusable="true" />
+</RelativeLayout>
+
+
+//This ShowValues.java
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class ShowValues extends AppCompatActivity
+{
+    //global variables
+    double unitPrice = 20;
+    double disc5_10 = 0.2;
+    double disc10_15 = 0.3;
+    double disc15_20 = 0.4;
+    double currentDisc;
+
+    //outputs
+    double disc, tPrice;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_show_values);
+
+        //reference to the output TextView
+        TextView outTV = (TextView) findViewById(R.id.outputTV);
+
+        //creating an Intent to get the passing quantity
+        Intent getQuantity = getIntent();
+
+        //getting  the quantity
+        int quantity = getQuantity.getExtras().getInt("quantity");
+
+        //checking which range the quantity falls on
+        if (quantity >= 5 && quantity <=10) currentDisc = disc5_10;
+        else
+        if (quantity > 10 && quantity <=15) currentDisc = disc10_15;
+        else
+        if (quantity > 15 && quantity <=20) currentDisc = disc15_20;
+
+        disc = quantity * unitPrice * currentDisc;
+        tPrice = quantity * unitPrice - disc;
+
+        //ready to write price and discount to the output TextView
+        outTV.setText("Quantity: " + quantity + "\nDiscount: " + disc
+                + "\nPrice: " + tPrice);
+
+    }
+}
+
+//This is activity_show_values
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cst2301.hwk8spinner.ShowValues">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Store"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/outputTV"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="86dp"
+        android:textSize="30sp" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
